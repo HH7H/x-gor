@@ -105,10 +105,10 @@ def hex2string (inputinhex2 ):#line:117
     return varinhexs1 #line:121
 @app .route ('/sign')#line:123
 def X_Gorgon0404 ():#line:124
-    decode_url =str (base64 .b64decode (request.form['url']),"utf-8")#line:125
+    decode_url =str (base64 .b64decode (request.args.get('url')),"utf-8")#line:125
     print (decode_url )#line:126
     decode_url =splitParams (decode_url )#line:127
-    data =request.form['data']#line:128
+    data =request.args.get('data')#line:128
     print (data )#line:129
     e0inx_g ='' #str (base64 .b64decode (request .args .get ('cookie')),"utf-8")#line:130
     print (e0inx_g )#line:131
