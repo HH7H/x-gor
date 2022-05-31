@@ -105,7 +105,7 @@ def hex2string (inputinhex2 ):#line:117
     return varinhexs1 #line:121
 @app .route ('/sign')#line:123
 def X_Gorgon0404 ():#line:124
-    decode_url =str (base64 .b64decode ("url=residence=IQ&device_id=7092527186544330246&os_version=15.3&iid=7092527941028710149&app_name=musical_ly&locale=en&ac=WIFI&sys_region=US&js_sdk_version=1.77.0.2&version_code=19.3.0&vid=C6A977A1-AC7C-4D0E-9533-1FCD3972CE85&channel=App%20Store&op_region=US&tma_jssdk_version=1.77.0.2&os_api=18&idfa=00000000-0000-0000-0000-000000000000&device_platform=ipad&device_type=iPad8,9&openudid=c920d54dabfbf4123671b88bb1c0b142e7ea4d6a&account_region=&tz_name=Asia/Baghdad&tz_offset=10800&app_language=en&current_region=IQ&build_number=193021&aid=1233&mcc_mnc=&screen_width=1668&uoo=1&content_language=&language=en&cdid=05581917-5ED8-4DB2-BDA1-00AB5F200527&app_version=19.3.0&unique_id=user6"),"utf-8")#line:125
+    decode_url =str (base64 .b64decode ("url=residence=IQ&device_id=7092527186544330246&os_version=15.3&iid=7092527941028710149&app_name=musical_ly&locale=en&ac=WIFI&sys_region=US&js_sdk_version=1.77.0.2&version_code=19.3.0&vid=C6A977A1-AC7C-4D0E-9533-1FCD3972CE85&channel=App%20Store&op_region=US&tma_jssdk_version=1.77.0.2&os_api=18&idfa=00000000-0000-0000-0000-000000000000&device_platform=ipad&device_type=iPad8,9&openudid=c920d54dabfbf4123671b88bb1c0b142e7ea4d6a&account_region=&tz_name=Asia/Baghdad&tz_offset=10800&app_language=en&current_region=IQ&build_number=193021&aid=1233&mcc_mnc=&screen_width=1668&uoo=1&content_language=&language=en&cdid=05581917-5ED8-4DB2-BDA1-00AB5F200527&app_version=19.3.0&unique_id=user6"),"utf-8"))#line:125
     print (decode_url )#line:126
     decode_url =splitParams (decode_url )#line:127
     data =""#line:128
